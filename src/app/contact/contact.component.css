@@ -1,0 +1,71 @@
+.container{
+    font-family: Poppins;
+    color: #fff;
+    height: 90vh;
+    background-color: #222222;
+    
+}
+
+.container h2{
+    padding: 10px;
+}
+
+.container .container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .container-form input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.container .container-form .textarea textarea{
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    resize: none;
+}
+
+.container .container-form form .enviar{
+
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+   display: block;
+    
+} 
+
+.container .container-form form .enviar input{
+    width: 50%;
+    background-color:#222222;
+    font-family: Poppins;
+    color: #fff;
+    border: 1px solid #fff;
+   padding: 10px;
+   margin: 20px;
+ 
+} 
+
+
+.container .container-form form .enviar input:hover{
+   
+    background-color:deeppink;
+    color: #000;
+    transition: 0.3s;
+   
+} 
+
+.container .container-form form label{
+   padding:10px;
+  
+ 
+} 

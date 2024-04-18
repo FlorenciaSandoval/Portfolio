@@ -1,0 +1,38 @@
+.container{
+    font-family: Poppins;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.container h2{
+    padding: 10px;
+}
+
+.container-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-me img{
+   
+width: 300px;
+border-radius: 50%;
+border:10px solid deeppink;
+}
+
+.text{
+   width: 50%;
+   margin-left: 20px;
+    
+}
+
+.icons{
+    width: 45%;
+}
+
+.icons img{
+    width: 50px;
+}
