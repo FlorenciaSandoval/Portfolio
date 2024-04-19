@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule, Routes,ExtraOptions } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { WorksComponent } from './works/works.component';
 import { AboutComponent } from './about/about.component';
@@ -23,15 +23,16 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent }
 ];
+const routerOptions: ExtraOptions={
+  scrollPositionRestoration: 'enabled',
+  anchorScrolling:'enabled',
+
+}
 
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule,RouterModule.forRoot(routes, {
-      onSameUrlNavigation: "ignore",
-      anchorScrolling:'enabled',
-      scrollPositionRestoration: 'enabled'
-    }) 
+    CommonModule,RouterModule.forRoot(routes,routerOptions) 
   ],
   exports: [ RouterModule ]
 })

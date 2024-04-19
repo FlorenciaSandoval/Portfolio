@@ -1,0 +1,39 @@
+.container{
+    height: auto;
+    background-color: #060606;
+    
+}
+
+h2 {
+    font-family: Poppins;
+    color: #fff;
+    padding: 10px;
+    font-size: 35px;
+  }
+  .container-web{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+
+  .imagen img{
+    width: 50%;
+    margin-left: 5%;
+    padding-bottom: 5%;
+  }
+
+  .description{
+    margin-left: -15%;
+  }
+  h3{
+    color:#fff;
+    font-family: Poppins;
+    font-size: 20px;
+  }
+
+  p{
+    color: #fff;
+    font-family: Poppins;
+  }
+
+  

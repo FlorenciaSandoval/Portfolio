@@ -1,9 +1,5 @@
 <div class="container">
-    <header class="header">
-        <h1>Portfolio</h1>
-        <app-navbar></app-navbar>
-        
-    </header>
+ 
     <div id="Home" class="text">
         <h4>MY PORTFOLIO</h4>
         <h3>FLORENCIA M. SANDOVAL</h3>
@@ -1251,7 +1247,70 @@
         </g>
     </svg>
 </div>
-<app-works></app-works>
+<!-- <app-works></app-works>
 <app-about></app-about>
 <app-contact></app-contact>
+<app-footer></app-footer> -->
+<!-- Works -->
+<div class="container-works" id="works">
+  <h2 id="Works">Works</h2>
+  <div class="container-section">
+     <a routerLink="/illustrations" class="enlace"><h3>Illustrations</h3><img src="../../assets/img/work/pikachu.jpg" alt="Pikachu Van Gogh" class="imagen" /></a>
+     <a href="" class="enlace"><h3>Graphic Designs</h3><img src="../../assets/img/work/jardin.png" class="imagen" alt="Jardin dulce" /></a>
+    <a href=""class="enlace"><h3>Web Designs</h3><img src="../../assets/img/work/diseño.png" class="imagen" alt="Space bunny" /></a>
+</div>
+
+<!-- ABOUT -->
+<div class="container-about-me">
+  <h2 id="About">About me</h2>
+<div class="container-about">
+
+<div class="imagen-me">
+  <img src="../../assets/img/flor.jpg" alt="Flor">
+</div>
+<div class="about-text">
+<p>¡Saludos! Soy Florencia, una apasionada del diseño gráfico y la programación. Con una mente creativa y una sólida habilidad técnica, 
+  me dedico a fusionar el arte visual con la funcionalidad digital.
+  Mi objetivo es crear experiencias digitales cautivadoras y funcionales que dejen una impresión duradera. </p>
+  <p><b>Skills:</b></p>
+  <div class="about-icons">
+      <img src="../../assets/img/icons/angular.png" title="Angular" alt="Angular">
+      <img src="../../assets/img/icons/React.png" title="React" alt="React">
+      <img src="../../assets/img/icons/java.png" title="Java" alt="Java">
+      <img src="../../assets/img/icons/php.svg" title="PHP" alt="Php">
+      <img src="../../assets/img/icons/c-sharp.png" title="C#" alt="C#">
+      <img src="../../assets/img/icons/go.png" title="GO" alt="Go">
+      <img src="../../assets/img/icons/javascript.png" title="Javascript" alt="Javascript">
+      <img src="../../assets/img/icons/html.png" title="HTML" alt="Html">
+      <img src="../../assets/img/icons/CSS.png" title="CSS" alt="Css">
+      <img src="../../assets/img/icons/photoshop.png" title="Photoshop" alt="Photoshop">
+      <img src="../../assets/img/icons/illustrator.png" title="Illustrator" alt="Illustrator">
+      <img src="../../assets/img/icons/indesign.png" title="Indesign" alt="Indesign">
+  </div>
+
+  </div>
+</div>
+</div>
+
+<!-- Contact -->
+<div class="container-contact">
+  <h2>Contact</h2> 
+  <div class="container-form">
+     <form action="" method="post">
+        <label for="">Name</label>
+        <input type="text" formControlName="name" placeholder="Name">
+        <label for="">Email</label>
+        <input type="email" formControlName="name">
+        <div class="textarea">
+           <label for="">Comment</label>
+           <textarea name="" id="" cols="80" rows="10"></textarea>
+        </div>
+        <div class="enviar">
+           <input type="submit" name="" id="">
+        </div>
+     </form>
+  </div> 
+</div>
+
+
 <app-footer></app-footer>
