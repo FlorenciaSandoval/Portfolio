@@ -45,7 +45,7 @@ min-height: 80vh;
     font-size: 30px;
 }
 
-.text button{
+.text .btn{
     background-color: deeppink;
     padding: 20px 50px;
     font-family: Poppins;
@@ -54,9 +54,11 @@ min-height: 80vh;
     margin-right: 30px;
     border-radius: 10px;
     border: NONE;
+    text-decoration:none;
+    color: #fff;
 }
 
-.text button:hover{
+.text .btn:hover{
     background-color: #0c0c0c;
     color: #fff;
     transition: 0.5s;

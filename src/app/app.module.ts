@@ -8,6 +8,10 @@ import { WorksComponent } from './works/works.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { IllustrationsComponent } from './illustrations/illustrations.component';
+import { GraphicDesignsComponent } from './graphic-designs/graphic-designs.component';
+import { WebDesignsComponent } from './web-designs/web-designs.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -18,9 +22,13 @@ import { FooterComponent } from './footer/footer.component';
     AboutComponent,
     ContactComponent,
     FooterComponent,
+    IllustrationsComponent,
+    GraphicDesignsComponent,
+    WebDesignsComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

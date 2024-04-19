@@ -3,6 +3,7 @@
   background-color: #0c0c0c;
   left: 0;
 
+
 }
 
 h2 {
@@ -20,12 +21,18 @@ h3 {
   -webkit-text-stroke-color: black;
   text-decoration: none;
   position: absolute;
-  margin: 10%;
-  justify-content: center;
   text-align: center;
   display: flex;
   z-index: 1;
   opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 5%;
+  padding-right: 10px;
+  background: rgba(25, 25, 25, .9)
+
 }
 
 .container-section {

@@ -1,0 +1,38 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './home/home.component';
+import { WorksComponent } from './works/works.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { IllustrationsComponent } from './illustrations/illustrations.component';
+import { WebDesignsComponent } from './web-designs/web-designs.component';
+import { GraphicDesignsComponent } from './graphic-designs/graphic-designs.component';
+
+
+const routes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'works', component: WorksComponent,
+    children:[
+      { path: 'illustrations', component: IllustrationsComponent },
+      { path: 'webDesing', component: WebDesignsComponent },
+      {path:'graphicDesigns', component:GraphicDesignsComponent}
+    ]
+   },
+  { path: 'about', component: AboutComponent },
+  { path: 'contact', component: ContactComponent }
+];
+
+@NgModule({
+  declarations: [],
+  imports: [
+    CommonModule,RouterModule.forRoot(routes, {
+      onSameUrlNavigation: "ignore",
+      anchorScrolling:'enabled',
+      scrollPositionRestoration: 'enabled'
+    }) 
+  ],
+  exports: [ RouterModule ]
+})
+export class AppRoutingModule { }
