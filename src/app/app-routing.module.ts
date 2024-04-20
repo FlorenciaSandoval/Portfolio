@@ -11,17 +11,14 @@ import { GraphicDesignsComponent } from './graphic-designs/graphic-designs.compo
 
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
-  { path: 'works', component: WorksComponent,
-    children:[
-      { path: 'illustrations', component: IllustrationsComponent },
-      { path: 'webDesing', component: WebDesignsComponent },
-      {path:'graphicDesigns', component:GraphicDesignsComponent}
-    ]
-   },
+  { path: 'works', component: WorksComponent},
   { path: 'about', component: AboutComponent },
-  { path: 'contact', component: ContactComponent }
+  { path: 'contact', component: ContactComponent },
+  { path: 'illustrations', component: IllustrationsComponent },
+  { path: 'webDesing', component: WebDesignsComponent },
+  {path:'graphicDesigns', component:GraphicDesignsComponent}
 ];
 const routerOptions: ExtraOptions={
   scrollPositionRestoration: 'enabled',

@@ -1,13 +1,17 @@
 .container{
     font-family: Poppins;
-    height: 70vh;
+    height:auto;
     justify-content: center;
     align-items: center;
     background-color: #fff;
+    padding-bottom: 10%;
 }
 
 .container h2{
     padding: 10px;
+    padding-top: 5%;
+    text-transform: uppercase;
+    font-size: 35px;
 }
 
 .container-about{

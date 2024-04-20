@@ -112,7 +112,7 @@ svg {
   /*WORKS*/
 
   .container-works {
-    height: 104vh;
+    height: auto;
     background-color: #0c0c0c;
     left: 0;
   
@@ -124,6 +124,9 @@ svg {
     color: #fff;
     padding: 10px;
     font-size: 35px;
+    margin-left: 2%;
+    text-transform: uppercase;
+
   }
   
   .container-works h3 {
@@ -151,14 +154,14 @@ svg {
   .container-section {
     display: flex;
     width: 100%;
-    height: 95vh;
+    height: auto;
     z-index: -2;
   }
   
   .enlace {
     display: block;
     width: 100%;
-    height: 100%;
+    height: auto;
   }
   
   .container-section .imagen {
@@ -180,14 +183,19 @@ svg {
 
   .container-about-me{
     font-family: Poppins;
-    height: 70vh;
+    height: auto;
     justify-content: center;
     align-items: center;
     background-color: #fff;
+    padding-bottom: 5%;
 }
-
+#About{
+  color: #000;
+  text-transform: uppercase;
+}
 .container-about-me h2{
     padding: 10px;
+    margin-left: 2%;
 }
 
 .container-about{
@@ -222,13 +230,15 @@ border:10px solid deeppink;
 .container-contact{
   font-family: Poppins;
   color: #fff;
-  height: 90vh;
-  background-color: #222222;
+  height: auto;
+  background-color: #0c0c0c;
   
 }
 
 .container-contact h2{
   padding: 10px;
+  margin-left: 2%;
+  text-transform: uppercase;
 }
 
 .container-contact .container-form {
@@ -267,7 +277,7 @@ border:10px solid deeppink;
 
 .container-contact .container-form form .enviar input{
   width: 50%;
-  background-color:#222222;
+  background-color:#0c0c0c;
   font-family: Poppins;
   color: #fff;
   border: 1px solid #fff;
@@ -277,7 +287,7 @@ border:10px solid deeppink;
 } 
 
 
-.container .container-form form .enviar input:hover{
+.container-contact .container-form form .enviar input:hover{
  
   background-color:deeppink;
   color: #000;

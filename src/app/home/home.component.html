@@ -5,7 +5,7 @@
         <h3>FLORENCIA M. SANDOVAL</h3>
         <p>| graphic design, developer, front-end</p>
         <a class="btn" href="../../assets/CV_Sandoval_FlorenciaMacarena.pdf" download="CV_Sandoval_FlorenciaMacarena.pdf">RESUME</a>
-        <a class="btn" href="">CONTACT</a>
+        <a class="btn" routerLink="/contact">CONTACT</a>
     </div>
    <div class="social">
         <a href="https://github.com/FlorenciaSandoval"><i class="fab fa-github fa-3x"  aria-hidden="true"></i></a>
@@ -1247,17 +1247,13 @@
         </g>
     </svg>
 </div>
-<!-- <app-works></app-works>
-<app-about></app-about>
-<app-contact></app-contact>
-<app-footer></app-footer> -->
 <!-- Works -->
 <div class="container-works" id="works">
   <h2 id="Works">Works</h2>
   <div class="container-section">
      <a routerLink="/illustrations" class="enlace"><h3>Illustrations</h3><img src="../../assets/img/work/pikachu.jpg" alt="Pikachu Van Gogh" class="imagen" /></a>
-     <a href="" class="enlace"><h3>Graphic Designs</h3><img src="../../assets/img/work/jardin.png" class="imagen" alt="Jardin dulce" /></a>
-    <a href=""class="enlace"><h3>Web Designs</h3><img src="../../assets/img/work/diseño.png" class="imagen" alt="Space bunny" /></a>
+     <a routerLink="/graphicDesigns"  class="enlace"><h3>Graphic Designs</h3><img src="../../assets/img/work/jardin.png" class="imagen" alt="Jardin dulce" /></a>
+    <a routerLink="/webDesing" class="enlace"><h3>Web Designs</h3><img src="../../assets/img/work/diseño.png" class="imagen" alt="Space bunny" /></a>
 </div>
 
 <!-- ABOUT -->
@@ -1296,19 +1292,19 @@
 <div class="container-contact">
   <h2>Contact</h2> 
   <div class="container-form">
-     <form action="" method="post">
-        <label for="">Name</label>
-        <input type="text" formControlName="name" placeholder="Name">
-        <label for="">Email</label>
-        <input type="email" formControlName="name">
-        <div class="textarea">
-           <label for="">Comment</label>
-           <textarea name="" id="" cols="80" rows="10"></textarea>
-        </div>
-        <div class="enviar">
-           <input type="submit" name="" id="">
-        </div>
-     </form>
+    <form action="mailto:florenciamacarenasandoval@gmail.com" method="post" enctype="text/plain">
+      <label id="Nombre" for="">Name</label>
+      <input id="Nombre" class="input" type="text" formControlName="name" placeholder="Name">
+      <label  id="mail"for="">Email</label>
+      <input class="input" id="mail" type="email" formControlName="email"  placeholder="Email" required pattern="^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$">
+      <div class="textarea">
+         <label id="Mensaje" for="Mensaje">Comment</label>
+         <textarea id="Mensaje" name="Mensaje" cols="80" rows="10"></textarea>
+      </div>
+      <div class="enviar" id="contactar" >
+         <input onclick=(validar_formulario()) type="submit" name="" id="">
+      </div>
+   </form>
   </div> 
 </div>
 
