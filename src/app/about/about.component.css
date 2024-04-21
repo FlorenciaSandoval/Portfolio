@@ -2,6 +2,7 @@
     font-family: Poppins;
     height:auto;
     justify-content: center;
+  
     align-items: center;
     background-color: #fff;
     padding-bottom: 10%;
@@ -22,7 +23,7 @@
 
 .imagen-me img{
    
-width: 300px;
+width: 400px;
 border-radius: 50%;
 border:10px solid deeppink;
 }

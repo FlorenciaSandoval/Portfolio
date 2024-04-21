@@ -1,40 +1,52 @@
 .container{
-    height: auto;
-    background-color: #060606;
-    
+  height: auto;
+  background-color: #060606;
+  
 }
 
 h2 {
-    font-family: Poppins;
-    color: #fff;
-    padding: 10px;
-    font-size: 35px;
-    margin-top: 4%;
-  }
-  .container-web{
-    display: flex;
-    justify-content: left;
-    align-items: left;
-  }
+  font-family: Poppins;
+  color: #fff;
+  margin-top: 4%;
+  padding: 10px;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.container-web{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-bottom: 4%;
+}
 
-  .imagen img{
-    width: 50%;
-    margin-left: 5%;
-    padding-bottom: 5%;
-  }
 
-  .description{
-    margin-left: -15%;
-  }
-  h3{
-    color:#fff;
-    font-family: Poppins;
-    font-size: 20px;
-  }
+.description{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.imagen img{
+  width: 300px;
+  margin-left: 10%;
+  padding-bottom: 5%;
+}
 
-  p{
-    color: #fff;
-    font-family: Poppins;
-  }
 
-  
+h3{
+  color:#fff;
+  font-family: Poppins;
+  font-size: 20px;
+}
+
+p{
+  color: #fff;
+  font-family: Poppins;
+
+}
+
+.icons{
+  width: 45%;
+}
+
+.icons img{
+  width: 50px;
+}
