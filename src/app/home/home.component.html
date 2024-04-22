@@ -2488,31 +2488,18 @@
         method="post"
         enctype="text/plain"
       >
-        <label id="Nombre" for="">Name</label>
-        <input
-          id="Nombre"
-          class="input"
-          type="text"
-          formControlName="name"
-          placeholder="Name"
-        />
-        <label id="mail" for="">Email</label>
-        <input
-          class="input"
-          id="mail"
-          type="email"
-          formControlName="email"
-          placeholder="Email"
-          required
-          pattern="^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$"
-        />
-        <div class="textarea">
-          <label id="Mensaje" for="Mensaje">Comment</label>
-          <textarea id="Mensaje" name="Mensaje" cols="80" rows="10"></textarea>
-        </div>
-        <div class="enviar" id="contactar">
-          <input onclick="(validar_formulario())" type="submit" name="" id="" />
-        </div>
+      <label id="Nombre" for="">Name</label>
+      <input id="Nombre" class="input" type="text" formControlName="name" placeholder="Name">
+      <label  id="mail"for="">Email</label>
+      <input class="input" id="mail" type="email" formControlName="email"  placeholder="Email" required >
+      <div class="textarea">
+         <label id="Mensaje" for="Mensaje">Comment</label>
+         <textarea id="Mensaje" name="Mensaje" cols="80" rows="10" required></textarea>
+      </div>
+      <div class="enviar" id="contactar" >
+         <input type="submit" name="" id="S">
+         <!-- <input onclick=(validar_formulario()) type="submit" name="" id=""> -->
+      </div>
       </form>
     </div>
   </div>

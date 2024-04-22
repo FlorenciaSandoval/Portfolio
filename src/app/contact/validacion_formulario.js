@@ -1,4 +1,5 @@
-function validar_formulario(){
+////I DON'T HAVE SERVE///
+/*function validar_formulario(){
 
     if(document.getElementById('Nombre').value.length < 2 ){
 
@@ -40,4 +41,4 @@ var texto = document.getElementById('Mensaje').value;
 
     return todo_correcto;
 
-}}}
+}}}*/
