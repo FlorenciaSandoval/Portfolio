@@ -297,6 +297,13 @@ border:10px solid deeppink;
 
 .container .container-form form label{
  padding:10px;
-
-
 } 
+
+.agreed{
+  font-size: 25px;
+  width: 100%;
+  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
