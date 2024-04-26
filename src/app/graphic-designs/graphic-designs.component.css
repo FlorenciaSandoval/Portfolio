@@ -12,11 +12,24 @@ h2 {
   font-size: 35px;
   text-transform: uppercase;
 }
-.container-designs{
+section{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  margin-left: 10%;
+
+}
+section .container-designs{
+  position: relative;
   display: flex;
   justify-content: left;
   align-items: left;
-  margin-bottom: 4%;
+  margin-bottom: 1%;
+  overflow: hidden;
+  width: 100%;
 }
 
 

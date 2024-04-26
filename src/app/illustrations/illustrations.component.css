@@ -88,6 +88,8 @@ section .container-illus .active{
   justify-content: center;
   align-items: center;
   margin-top: 2%;
+  transition: visibility 0s, opacity 0.5s linear;
+
 
 }
 
